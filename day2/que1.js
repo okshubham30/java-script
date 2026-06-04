@@ -1,16 +1,6 @@
-//NUMBER IS DIVISIBLE BY 5 OR NOT 
-
-let number = prompt("enter a number");
-if (number % 5 === 0){
-    console.log("number is divisible by 5");
-
-} else {
-    console.log("number is not divisible by 5");
-}
-
 //write a code with give a grade to a student based on marks obtained in an exam 
 
-let marks = prompt("enter your marks");
+let marks = 60;
 
 if (marks >= 90 ){
     console.log("grade is A" );
