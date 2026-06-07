@@ -1,25 +1,18 @@
-// Q10 (Real Interview Style)
-// let companies = [
-// "Bloomberg",
-// "Microsoft",
-// "Uber",
-// "Google",
-// "IBM",
-// "Netflix"
-// ];
-// First company remove karo.
-// Uber ki jagah Ola add karo.
-// End me Amazon add karo.a
-
-
 let companies = [
     "Bloomberg",
     "Microsoft",
-    "uber",
-    "google",
+    "Uber",
+    "Google",
     "IBM",
-    "Netflix",
+    "Netflix"
 ];
 
-console.log(companies.shift());
-console.log(companies.splice(2, 1, "ola"));
+// Remove first company
+companies.shift();
+
+// Replace Uber with Ola
+companies.splice(1, 1, "Ola");
+
+// Add Amazon at the end
+companies.push("Amazon");
+console.log(companies);
