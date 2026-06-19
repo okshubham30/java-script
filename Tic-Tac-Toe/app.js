@@ -1,7 +1,7 @@
 let usreScore = 0;
 let compScore = 0;
 
-const choices = document.querySelectorAll(".choices");
+const choices = document.querySelectorAll(".choice");
 
 const genCompChoice = () => {
     let options = ["rock", "paper", "scissors"];
